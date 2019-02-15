@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Author.cs" />
-    <Compile Include="Category.cs" />
     <Compile Include="CourseLevel.cs" />
     <Compile Include="Migrations\201902150304230_InitialModel.cs" />
     <Compile Include="Migrations\201902150304230_InitialModel.Designer.cs">
@@ -75,6 +74,14 @@
     <Compile Include="Migrations\201902150447099_DeleteDatePublishedColumnFromCoursesTable.cs" />
     <Compile Include="Migrations\201902150447099_DeleteDatePublishedColumnFromCoursesTable.Designer.cs">
       <DependentUpon>201902150447099_DeleteDatePublishedColumnFromCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902150451010_DeleteCateoryColumnFromCoursesTable.cs" />
+    <Compile Include="Migrations\201902150451010_DeleteCateoryColumnFromCoursesTable.Designer.cs">
+      <DependentUpon>201902150451010_DeleteCateoryColumnFromCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902150452588_DeleteCategoriesTable.cs" />
+    <Compile Include="Migrations\201902150452588_DeleteCategoriesTable.Designer.cs">
+      <DependentUpon>201902150452588_DeleteCategoriesTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
@@ -104,6 +111,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902150447099_DeleteDatePublishedColumnFromCoursesTable.resx">
       <DependentUpon>201902150447099_DeleteDatePublishedColumnFromCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902150451010_DeleteCateoryColumnFromCoursesTable.resx">
+      <DependentUpon>201902150451010_DeleteCateoryColumnFromCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902150452588_DeleteCategoriesTable.resx">
+      <DependentUpon>201902150452588_DeleteCategoriesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
